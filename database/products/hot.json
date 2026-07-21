@@ -3,7 +3,7 @@
     "title": "Espresso",
     "subtitle": "Café italien intense et aromatique.",
     "price": 180,
-    "img": "/images/espresso.jpg",
+    "img": "./images/espresso.jpg",
     "alt": "Espresso",
     "ratingValue": "4.8",
     "category": "hot-drinks"
@@ -12,7 +12,7 @@
     "title": "Cappuccino",
     "subtitle": "Espresso avec mousse de lait onctueuse.",
     "price": 220,
-    "img": "/images/cappuccino.jpg",
+    "img": "./images/cappuccino.jpg",
     "alt": "Cappuccino",
     "ratingValue": "4.9",
     "category": "hot-drinks"
@@ -21,7 +21,7 @@
     "title": "Latte",
     "subtitle": "Espresso accompagné de lait chaud.",
     "price": 250,
-    "img": "/images/latte.jpg",
+    "img": "./images/latte.jpg",
     "alt": "Latte",
     "ratingValue": "4.7",
     "category": "hot-drinks"
@@ -30,7 +30,7 @@
     "title": "Mocha",
     "subtitle": "Mélange de café, chocolat et lait.",
     "price": 280,
-    "img": "/images/mocha.jpg",
+    "img": "./images/mocha.jpg",
     "alt": "Mocha",
     "ratingValue": "4.9",
     "category": "hot-drinks"
@@ -39,7 +39,7 @@
     "title": "Iced Coffee",
     "subtitle": "Café glacé rafraîchissant.",
     "price": 260,
-    "img": "/images/iced-coffe.jpg",
+    "img": "./images/iced-coffe.jpg",
     "alt": "Iced Coffee",
     "ratingValue": "4.6",
     "category": "cold-drinks"
@@ -48,7 +48,7 @@
     "title": "Frappuccino",
     "subtitle": "Boisson glacée crémeuse.",
     "price": 320,
-    "img": "/images/frappuccino.jpg",
+    "img": "./images/frappuccino.jpg",
     "alt": "Frappuccino",
     "ratingValue": "4.9",
     "category": "cold-drinks"
@@ -57,7 +57,7 @@
     "title": "Coffee Beans Premium",
     "subtitle": "Grains 100 % Arabica - 500 g.",
     "price": 1200,
-    "img": "/images/beans.jpg",
+    "img": "./images/beans.jpg",
     "alt": "Coffee Beans",
     "ratingValue": "5.0",
     "category": "beans"
@@ -66,7 +66,7 @@
     "title": "Tasse Tizi Caffé",
     "subtitle": "Mug en céramique officiel.",
     "price": 900,
-    "img": "/images/mug.jpg",
+    "img": "./images/mug.jpg",
     "alt": "Mug",
     "ratingValue": "4.8",
     "category": "accessories"
@@ -75,7 +75,7 @@
   "title": "Cheesecake",
   "subtitle": "Gâteau au fromage crémeux.",
   "price": 450,
-  "img": "/images/cheesecake.jpg",
+  "img": "./images/cheesecake.jpg",
   "alt": "Cheesecake",
   "ratingValue": 4.9,
   "category": "desserts"
@@ -84,7 +84,7 @@
   "title": "Brownie",
   "subtitle": "Brownie au chocolat fondant.",
   "price": 350,
-  "img": "/images/brownies.jpg",
+  "img": "./images/brownies.jpg",
   "alt": "Brownie",
   "ratingValue": 4.8,
   "category": "desserts"
@@ -94,7 +94,7 @@
   "title": "Croissant",
   "subtitle": "Croissant au beurre frais.",
   "price": 180,
-  "img": "/images/croissant.jpg",
+  "img": "./images/croissant.jpg",
   "alt": "Croissant",
   "ratingValue": 4.7,
   "category": "desserts"
@@ -103,7 +103,7 @@
   "title": "Muffin",
   "subtitle": "Muffin au chocolat.",
   "price": 250,
-  "img": "/images/muffin.jpg",
+  "img": "./images/muffin.jpg",
   "alt": "Muffin",
   "ratingValue": 4.8,
   "category": "desserts"
