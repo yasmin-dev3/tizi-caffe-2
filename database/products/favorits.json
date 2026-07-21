@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Cappuccino",
+    "subtitle": "Espresso avec mousse de lait.",
+    "price": 220,
+    "img": "/images/cappuccino.jpg",
+    "alt": "Cappuccino",
+    "ratingValue": "4.9",
+    "category": "hot-drinks"
+  },
+  {
+    "title": "Latte",
+    "subtitle": "Espresso avec lait chaud.",
+    "price": 250,
+    "img": "/images/latte.jpg",
+    "alt": "Latte",
+    "ratingValue": "4.8",
+    "category": "hot-drinks"
+  },
+  {
+    "title": "Mocha",
+    "subtitle": "Café au chocolat.",
+    "price": 280,
+    "img": "/images/mocha.jpg",
+    "alt": "Mocha",
+    "ratingValue": "4.8",
+    "category": "hot-drinks"
+  }
+]

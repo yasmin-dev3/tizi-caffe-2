@@ -1,0 +1,44 @@
+.favorits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-col-div);
+}
+
+.favorits .header {
+    text-align: center;
+}
+.favorits .tag {
+    display: inline-block;
+    color: var(--accent);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.favorits .title {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(32px, 4vw, 48px);
+    font-weight: 700;
+    line-height: 1.15;
+}
+.favorits .title em {
+    font-style: italic;
+    color: var(--accent);
+}
+.favorits .subtitle {
+    color: var(--text2);
+    font-size: 15px;
+    max-width: 480px;
+    margin: 14px auto 0;
+    line-height: 1.7;
+}
+
+.favorits .list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-row-div);
+}

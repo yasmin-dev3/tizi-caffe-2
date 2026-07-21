@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Connexion | Tizi Caffé</title>
+
+<link rel="stylesheet" href="/styles/normalize.css">
+<link rel="stylesheet" href="/styles/globals.css">
+<link rel="stylesheet" href="/styles/button.css">
+<link rel="stylesheet" href="/styles/header.css">
+
+<style>
+
+body{
+    background:#f8f5f2;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+.login-container{
+    width:420px;
+    margin:70px auto;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
+}
+
+.login-container h1{
+    text-align:center;
+    color:#5b3924;
+    margin-bottom:30px;
+}
+
+.login-container input{
+    width:100%;
+    padding:15px;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.login-container button{
+    width:100%;
+    padding:15px;
+    background:#6d4c41;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.login-container button:hover{
+    background:#4e342e;
+}
+
+.login-container p{
+    text-align:center;
+    margin-top:20px;
+}
+
+.login-container a{
+    color:#6d4c41;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container">
+
+<nav class="mark">
+<span class="logo">Tizi Caffé</span>
+<span class="description">Café de spécialité</span>
+</nav>
+
+<nav class="nav-page">
+<a href="/">Accueil</a>
+<a href="/content/menu.html">Menu</a>
+<a href="/content/story.html">Notre histoire</a>
+</nav>
+
+</div>
+
+</header>
+
+<div class="login-container">
+
+<h1>Connexion</h1>
+
+<form>
+
+<input type="email" placeholder="Adresse e-mail" required>
+
+<input type="password" placeholder="Mot de passe" required>
+
+<button type="submit">
+Se connecter
+</button>
+
+</form>
+
+<p>
+Vous n'avez pas de compte ?
+<a href="/content/register.html">
+Créer un compte
+</a>
+</p>
+
+</div>
+
+</body>
+</html>

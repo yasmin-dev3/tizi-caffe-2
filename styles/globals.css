@@ -1,0 +1,70 @@
+:root {
+    --bg: #0e0b08;
+    --bg2: #1a1410;
+    --bg3: #241e18;
+    --surface: #2e2620;
+    --border: #3d3328;
+    --text: #f0e8dc;
+    --text2: #a89880;
+    --accent: #c8873a;
+    --accent2: #e6a84e;
+    --accent-soft: rgba(200, 135, 58, 0.15);
+    --danger: #e05252;
+    --success: #52c478;
+    --card-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    --radius: 12px;
+    --radius-sm: 8px;
+    --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --main-padding-y: 1rem;
+
+    /* Between sections */
+    --space-row-section: 2rem;
+    --space-col-section: 4rem;
+
+    /* Between divs/components */
+    --space-row-div: 1rem;
+    --space-col-div: 2rem;
+
+    /* Between text elements */
+    --space-row-text: 0.3rem;
+    --space-col-text: 0.5rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+main {
+    margin: 0 auto;
+    padding: 0 var(--main-padding-y);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-col-section);
+}
+
+section {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+    border: none;
+    background: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1280px;
+}

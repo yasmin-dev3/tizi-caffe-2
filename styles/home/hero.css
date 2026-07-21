@@ -1,0 +1,107 @@
+/* HERO */
+.hero {
+    position: relative;
+
+    min-height: 85vh;
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas: "content visual" "stats stats";
+    align-items: center;
+
+    padding-left: var(--space-row-div);
+    padding-right: var(--space-row-div);
+
+    background: var(--bg);
+}
+
+/*Content*/
+
+.hero .content {
+    grid-area: content;
+}
+
+.hero .tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    background: var(--accent-soft);
+    border: 1px solid rgba(200, 135, 58, 0.3);
+    border-radius: 32px;
+
+    color: var(--accent);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    padding: 6px 14px;
+    margin-bottom: 24px;
+}
+
+.hero .title {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(48px, 7vw, 88px);
+    line-height: 1;
+    font-weight: 900;
+
+    margin-bottom: 24px;
+}
+
+.hero .title em {
+    font-style: italic;
+    color: var(--accent);
+}
+
+.hero .subtitle {
+    font-size: 17px;
+    color: var(--text2);
+    line-height: 1.7;
+
+    max-width: 480px;
+    margin-bottom: 40px;
+}
+
+/*Visual*/
+
+.hero .visual {
+    grid-area: visual;
+}
+
+.hero .visual > img {
+    width: 25vw;
+    border-radius: 10px;
+}
+
+/*Stats*/
+
+.hero .stats {
+    border-top: 1px solid var(--border);
+    grid-area: stats;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 60px;
+    padding-top: 40px;
+}
+
+.hero .stats ul li:nth-child(1) {
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1;
+    list-style: none;
+}
+.hero .stats ul li:nth-child(2) {
+    font-size: 12px;
+    color: var(--text2);
+    margin-top: 4px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    list-style: none;
+}
