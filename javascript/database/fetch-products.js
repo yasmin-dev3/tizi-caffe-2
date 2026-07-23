@@ -7,7 +7,6 @@ export function fetchProducts(productsUrl, container, categoryFilter = "all", se
       return response.json();
     })
     .then((products) => {
-      // Filter by BOTH category and search term dynamically
       const filteredProducts = products.filter((product) => {
         const matchesCategory = categoryFilter === "all" || product.category === categoryFilter;
         
@@ -27,8 +26,6 @@ export function fetchProducts(productsUrl, container, categoryFilter = "all", se
         `;
         return;
       }
-
-      // Render items loop
       filteredProducts.forEach((product) => {
         const productCard = document.createElement("article");
         productCard.className = "product-card";
@@ -40,7 +37,7 @@ export function fetchProducts(productsUrl, container, categoryFilter = "all", se
         productCard.innerHTML = `
           ${badgeHTML}
           <div class="product-visual">
-            <img src="${product.img}" alt="${product.alt}" class="product-img" loading="lazy" />
+           <img src="../../${product.img}" alt="${product.alt}" class="product-img" loading="lazy" />
           </div>
           <div class="product-body">
             <div class="product-rating star">${product.ratingValue} ★</div>
