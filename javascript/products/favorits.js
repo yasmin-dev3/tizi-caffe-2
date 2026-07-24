@@ -1,6 +1,6 @@
-import { fetchProducts } from "/javascript/database/fetch-products.js";
+import { fetchProducts } from "../database/fetch-products.js";
 
-const favoritsURL = "/database/products/favorits.json";
+const favoritsURL = "../../database/products/favorits.json";
 
 const container = document.getElementById("favorits-list");
 

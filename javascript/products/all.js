@@ -13,7 +13,6 @@ function updateCartBadge() {
   if (cartBadge) cartBadge.textContent = orders.length;
 }
 
-// Global render trigger using current global states
 function renderMenu() {
   fetchProducts(productsURL, gridContainer, currentCategory, currentSearchQuery);
 }

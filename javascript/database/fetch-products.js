@@ -1,11 +1,18 @@
 export function fetchProducts(productsUrl, container, categoryFilter = "all", searchQuery = "") {
   container.innerHTML = "";
-
+  console.log(productsUrl);
   fetch(productsUrl)
     .then((response) => {
       if (!response.ok) throw new Error("Failed to load products");
       return response.json();
     })
+    fetch(productsUrl)
+  .then((response) => {
+    console.log(response.status);
+    if (!response.ok) throw new Error("Failed to load products");
+    return response.json();
+  })
+
     .then((products) => {
       const filteredProducts = products.filter((product) => {
         const matchesCategory = categoryFilter === "all" || product.category === categoryFilter;
@@ -26,6 +33,8 @@ export function fetchProducts(productsUrl, container, categoryFilter = "all", se
         `;
         return;
       }
+      console.log(products);
+console.log(filteredProducts);
       filteredProducts.forEach((product) => {
         const productCard = document.createElement("article");
         productCard.className = "product-card";
@@ -72,7 +81,12 @@ export function fetchProducts(productsUrl, container, categoryFilter = "all", se
       });
     })
     .catch((error) => {
-      console.error(error);
-      container.innerHTML = `<p class="error-message">Erreur de chargement des produits.</p>`;
-    });
+  console.error("Erreur complète :", error);
+
+  container.innerHTML = `
+    <p class="error-message">
+      Erreur de chargement des produits.
+    </p>
+  `;
+});
 }

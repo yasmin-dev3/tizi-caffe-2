@@ -41,9 +41,6 @@ if (orders.length === 0) {
 
 }
 
-// --------------------
-// Supprimer un produit
-// --------------------
 
 document.querySelectorAll(".delete-btn").forEach((button) => {
 
@@ -61,9 +58,7 @@ document.querySelectorAll(".delete-btn").forEach((button) => {
 
 });
 
-// --------------------
-// Vider le panier
-// --------------------
+
 
 const clearBtn = document.getElementById("clear-cart");
 
@@ -74,10 +69,6 @@ clearBtn.addEventListener("click", () => {
     location.reload();
 
 });
-
-// --------------------
-// Commander
-// --------------------
 
 const commanderBtn = document.getElementById("commander");
 
